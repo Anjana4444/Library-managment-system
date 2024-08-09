@@ -40,7 +40,6 @@
             this.politicsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.businessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.referenceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resurveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.returnBooksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addNewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -54,7 +53,6 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.booksToolStripMenuItem,
-            this.loginToolStripMenuItem,
             this.resurveToolStripMenuItem,
             this.returnBooksToolStripMenuItem,
             this.addNewToolStripMenuItem,
@@ -62,7 +60,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1070, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(637, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -74,15 +72,15 @@
             this.booksToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.booksToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("booksToolStripMenuItem.Image")));
             this.booksToolStripMenuItem.Name = "booksToolStripMenuItem";
-            this.booksToolStripMenuItem.Size = new System.Drawing.Size(92, 25);
-            this.booksToolStripMenuItem.Text = "Books";
+            this.booksToolStripMenuItem.Size = new System.Drawing.Size(43, 24);
+            this.booksToolStripMenuItem.Text = " ";
             // 
             // fictionToolStripMenuItem
             // 
             this.fictionToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.fictionToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("fictionToolStripMenuItem.Image")));
             this.fictionToolStripMenuItem.Name = "fictionToolStripMenuItem";
-            this.fictionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.fictionToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.fictionToolStripMenuItem.Text = "Add New Book";
             this.fictionToolStripMenuItem.Click += new System.EventHandler(this.fictionToolStripMenuItem_Click);
             // 
@@ -99,15 +97,16 @@
             this.referenceToolStripMenuItem});
             this.nonFictionToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("nonFictionToolStripMenuItem.Image")));
             this.nonFictionToolStripMenuItem.Name = "nonFictionToolStripMenuItem";
-            this.nonFictionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.nonFictionToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.nonFictionToolStripMenuItem.Text = "View Books";
+            this.nonFictionToolStripMenuItem.Click += new System.EventHandler(this.nonFictionToolStripMenuItem_Click);
             // 
             // biographiesToolStripMenuItem
             // 
             this.biographiesToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.biographiesToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("biographiesToolStripMenuItem.Image")));
             this.biographiesToolStripMenuItem.Name = "biographiesToolStripMenuItem";
-            this.biographiesToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.biographiesToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.biographiesToolStripMenuItem.Text = "Biographies";
             // 
             // historyToolStripMenuItem
@@ -115,7 +114,7 @@
             this.historyToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.historyToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("historyToolStripMenuItem.Image")));
             this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
-            this.historyToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.historyToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.historyToolStripMenuItem.Text = "History";
             // 
             // scienceAndTechToolStripMenuItem
@@ -123,7 +122,7 @@
             this.scienceAndTechToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.scienceAndTechToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("scienceAndTechToolStripMenuItem.Image")));
             this.scienceAndTechToolStripMenuItem.Name = "scienceAndTechToolStripMenuItem";
-            this.scienceAndTechToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.scienceAndTechToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.scienceAndTechToolStripMenuItem.Text = "Science and Tech";
             // 
             // selfHelpToolStripMenuItem
@@ -131,7 +130,7 @@
             this.selfHelpToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.selfHelpToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("selfHelpToolStripMenuItem.Image")));
             this.selfHelpToolStripMenuItem.Name = "selfHelpToolStripMenuItem";
-            this.selfHelpToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.selfHelpToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.selfHelpToolStripMenuItem.Text = "Self-Help";
             // 
             // politicsToolStripMenuItem
@@ -139,7 +138,7 @@
             this.politicsToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.politicsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("politicsToolStripMenuItem.Image")));
             this.politicsToolStripMenuItem.Name = "politicsToolStripMenuItem";
-            this.politicsToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.politicsToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.politicsToolStripMenuItem.Text = "Politics";
             // 
             // businessToolStripMenuItem
@@ -147,7 +146,7 @@
             this.businessToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.businessToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("businessToolStripMenuItem.Image")));
             this.businessToolStripMenuItem.Name = "businessToolStripMenuItem";
-            this.businessToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.businessToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.businessToolStripMenuItem.Text = "Business";
             // 
             // referenceToolStripMenuItem
@@ -155,23 +154,15 @@
             this.referenceToolStripMenuItem.BackColor = System.Drawing.Color.BurlyWood;
             this.referenceToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("referenceToolStripMenuItem.Image")));
             this.referenceToolStripMenuItem.Name = "referenceToolStripMenuItem";
-            this.referenceToolStripMenuItem.Size = new System.Drawing.Size(226, 26);
+            this.referenceToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.referenceToolStripMenuItem.Text = "Reference";
-            // 
-            // loginToolStripMenuItem
-            // 
-            this.loginToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("loginToolStripMenuItem.Image")));
-            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(88, 25);
-            this.loginToolStripMenuItem.Text = "Login";
             // 
             // resurveToolStripMenuItem
             // 
             this.resurveToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resurveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("resurveToolStripMenuItem.Image")));
             this.resurveToolStripMenuItem.Name = "resurveToolStripMenuItem";
-            this.resurveToolStripMenuItem.Size = new System.Drawing.Size(137, 25);
+            this.resurveToolStripMenuItem.Size = new System.Drawing.Size(114, 24);
             this.resurveToolStripMenuItem.Text = "Issue Books";
             // 
             // returnBooksToolStripMenuItem
@@ -179,7 +170,7 @@
             this.returnBooksToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.returnBooksToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("returnBooksToolStripMenuItem.Image")));
             this.returnBooksToolStripMenuItem.Name = "returnBooksToolStripMenuItem";
-            this.returnBooksToolStripMenuItem.Size = new System.Drawing.Size(149, 25);
+            this.returnBooksToolStripMenuItem.Size = new System.Drawing.Size(125, 24);
             this.returnBooksToolStripMenuItem.Text = "Return Books";
             // 
             // addNewToolStripMenuItem
@@ -187,7 +178,7 @@
             this.addNewToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addNewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("addNewToolStripMenuItem.Image")));
             this.addNewToolStripMenuItem.Name = "addNewToolStripMenuItem";
-            this.addNewToolStripMenuItem.Size = new System.Drawing.Size(142, 25);
+            this.addNewToolStripMenuItem.Size = new System.Drawing.Size(119, 24);
             this.addNewToolStripMenuItem.Text = "Book Details";
             // 
             // exitToolStripMenuItem
@@ -195,7 +186,7 @@
             this.exitToolStripMenuItem.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(74, 25);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -204,16 +195,16 @@
             this.LblBookNameOrAuther.AutoSize = true;
             this.LblBookNameOrAuther.Location = new System.Drawing.Point(147, 80);
             this.LblBookNameOrAuther.Name = "LblBookNameOrAuther";
-            this.LblBookNameOrAuther.Size = new System.Drawing.Size(0, 21);
+            this.LblBookNameOrAuther.Size = new System.Drawing.Size(0, 17);
             this.LblBookNameOrAuther.TabIndex = 3;
             // 
             // FrmNVMLibrary
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1070, 792);
+            this.ClientSize = new System.Drawing.Size(637, 384);
             this.Controls.Add(this.LblBookNameOrAuther);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Cambria", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -233,7 +224,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem booksToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem loginToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem resurveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem returnBooksToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addNewToolStripMenuItem;
