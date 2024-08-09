@@ -18,3 +18,14 @@ C:\Users\94781\Downloads\LibraryManagementSystem\LibraryManagementSystem\Library
 C:\Users\94781\Downloads\LibraryManagementSystem\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Properties.Resources.resources
 C:\Users\94781\Downloads\LibraryManagementSystem\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.GenerateResource.cache
 C:\Users\94781\Downloads\LibraryManagementSystem\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe.config
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.pdb
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.AddBooks.resources
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.FrmNVMLibrary.resources
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Properties.Resources.resources
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.GenerateResource.cache
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.exe
+C:\Users\94781\Documents\GitHub\Library-managment-system\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb
