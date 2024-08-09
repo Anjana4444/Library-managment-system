@@ -24,7 +24,8 @@ namespace LibraryManagementSystem
 
         private void fictionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            AddBooks abs= new AddBooks();
+            abs.Show();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
