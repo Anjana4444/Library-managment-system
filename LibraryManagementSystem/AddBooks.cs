@@ -49,7 +49,7 @@ namespace LibraryManagementSystem
 
 
             con.Open();
-            string querry = "Insert into Newbook(bName,bAuthor,bPubl,bPDate,bPrice,bQuan)";
+            string querry = "Insert into Newbook(bName,bAuthor,bPubl,bPDate,bPrice,bQuan) ";
 
             MySqlCommand comd = new MySqlCommand(querry, con);
 
