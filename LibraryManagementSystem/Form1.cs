@@ -36,5 +36,11 @@ namespace LibraryManagementSystem
                 Application.Exit();
             }
         }
+
+        private void nonFictionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            viewbook vb = new viewbook();
+            vb.Show();
+        }
     }
 }
