@@ -20,7 +20,7 @@ namespace LibraryManagementSystem
 
         private void viewbook_Load(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection() 
+            SqlConnection conn = new SqlConnection(); 
         }
     }
 }
